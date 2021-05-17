@@ -1,0 +1,135 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+html body {
+  margin: 0;
+  background-color: #353535;
+}
+html body .container {
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+}
+html body .container h1 {
+  margin: 55px 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+}
+html body .container h1:before {
+  content: url("../img/triangle_left.png");
+  padding-right: 7px;
+}
+html body .container h1:after {
+  content: url("../img/triangle_right.png");
+  padding-left: 7px;
+}
+html body .container #btn-prev,
+html body .container #btn-next {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 54%;
+  height: 76px;
+  width: 76px;
+  border-radius: 100%;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+html body .container #btn-prev {
+  right: auto;
+  left: 475px;
+}
+html body .container #btn-next {
+  left: auto;
+  right: 475px;
+}
+html body .container #btn-prev:hover,
+html body .container #btn-next:hover {
+  background-color: #177d85;
+}
+html body .container #btn-prev:hover #first,
+html body .container #btn-prev:hover #second {
+  background-color: white;
+}
+html body .container #btn-next:hover #first,
+html body .container #btn-next:hover #second {
+  background-color: white;
+}
+html body .container #first,
+html body .container #second {
+  border-radius: 0;
+  height: 3px;
+  width: 25px;
+  background-color: #284a63;
+  position: absolute;
+}
+html body .container #btn-prev #first {
+  transform: rotate(-45deg);
+  top: 28px;
+  left: 31%;
+}
+html body .container #btn-prev #second {
+  transform: rotate(45deg);
+  top: 45px;
+  left: 31%;
+}
+html body .container #btn-next #first {
+  transform: rotate(45deg);
+  top: 28px;
+  left: 35%;
+}
+html body .container #btn-next #second {
+  transform: rotate(-45deg);
+  top: 45px;
+  left: 35%;
+}
+html body .container .dots-wrapper {
+  display: flex;
+  width: 1069px;
+  margin: 20px auto;
+  padding-left: 235px;
+}
+html body .container .dot.active {
+  background-color: #177d85;
+}
+html body .container span {
+  width: 7px;
+  height: 35px;
+  background: #888888;
+  border-radius: 2px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+html body .container span:last-child {
+  margin-right: 0;
+}
+html body .container .slider {
+  width: 850px;
+  height: 500px;
+  margin: 30px auto;
+  overflow: hidden;
+}
+html body .container .slider .slider-line {
+  height: 500px;
+  width: 4250px;
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: 1s;
+}
+html body .container .slider .slider-line .slide {
+  width: 850px;
+}
+html body .container .slider .slider-line .slide img {
+  display: block;
+  margin: 0 auto;
+}
