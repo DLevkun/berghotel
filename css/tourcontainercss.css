@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+	font-family: 'Montserrat';
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+.first_screen {
+	background-image: url(../images/1st_screen_tour_container.png);
+	height: 760px;
+	background-size: cover;
+}
+.name {
+	display: flex;
+	font-size: 65px;
+	color: #FFFFFF;
+	position: relative;
+	top: 170px;
+}
+.name img {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.transform {
+	transform: scale(-1, 1);
+}
+.input {
+	display: flex;
+}
+.input input {
+	width: 400px;
+	color: #177D85;
+	font-size: 30px;
+	border: 4px solid #177D85;
+}
+.date {
+	position: relative;
+	top: 300px;
+}
+.date p {
+	color: #FFFFFF;
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+.search {
+	display: flex;
+	justify-content: space-between;
+	color: #FFFFFF;
+	background-color: #177D85;
+	font-size: 30px;
+	width: 250px;
+	padding: 20px 25px;
+	margin-left: 50px;
+}
+.search p {
+	margin-bottom: 0;
+	font-weight: bold;
+}
+.main_frame {
+	background-color: #C4C4C4;
+	color: #353535;
+	text-align: center;
+	padding-bottom: 50px;
+
+}
+.centr {
+	text-align: center;
+	margin: 0 auto;
+}
+.zagolovok1 {
+	display: inherit;
+	font-size: 64px;
+	font-weight: bold;
+	align-items: center;
+	display: flex;
+	padding: 40px 0;
+}
+.inliner {
+	display: flex;
+}
+.zagolovok1 img {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.tour_image {
+	display: flex;
+}
+.back1 {
+	background-image: url(../images/tour1.png);
+	background-size: cover;
+	height: 630px;
+}
+.back2 {
+	background-image: url(../images/tour2.png);
+	background-size: cover;
+	height: 630px;
+}
+.back3 {
+	background-image: url(../images/tour3.png);
+	background-size: cover;
+	height: 630px;
+}
+.tour {
+	width: 100%;
+}
+.tour_text {
+	text-align: center;
+}
+.zagolovok2 {
+	font-size: 45px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.text {
+	font-size: 25px;
+	color: #000000;
+	padding: 0 10% 50px 10%;
+	line-height: 1.5;
+}
+.more {
+	color: #177D85;
+	background-color: #FFFFFF;
+	font-size: 32px;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	width: 30%;
+	padding: 15px 25px;
+}
+.price {
+	color: #FFFFFF;
+	background-color: #177D85;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	width: 25%;
+	padding: 15px 25px;
+}
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 15% 65px 15%;
+}
+.plan {
+	width: 100%;
+	text-align: left;
+	/*margin-top: 450px;
+	margin-left: 6%;*/
+	position: relative;
+	top: 460px;
+	left: 6%;
+}
+.plan p {
+	font-size: 32px;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.dates {
+	width: 200px;
+	color: #1D7F87;
+	background-color: #FFFFFF;
+	padding: 10px 20px;
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	border: 4px solid #1D7F87;
+	height: 25px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.length {
+	position: relative;
+	top: 460px;
+	right: 6%;
+	text-align: right;
+}
+.length p {
+	font-size: 32px;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+	.zagolovok1 {
+		font-size: 48px;
+	}
+	.plan p {
+		font-size: 28px;
+	}
+	.length p { 
+		font-size: 28px;
+	}
+	.zagolovok2 {
+		font-size: 36px;
+	}
+	.text {
+		font-size: 22px;
+	}
+	.more {
+		width: 35%;
+		font-size: 28px;
+	}
+	.price {
+		font-size: 28px;
+	}
+	.dates {
+		font-size: 24px;
+	}
+	.input {
+		display: block;
+	}
+	.input input {
+		padding: 16px 21px;
+		margin-bottom: 30px;
+	}
+	.search {
+		width: 400px;
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 950px) {
+	.zagolovok1 {
+		font-size: 36px;
+	}
+	.zagolovok1 img {
+		width: 5%;
+	}
+	.plan p {
+		font-size: 26px;
+	}
+	.length p { 
+		font-size: 26px;
+	}
+	.zagolovok2 {
+		font-size: 24px;
+	}
+	.text {
+		font-size: 18px;
+	}
+	.more {
+		width: 40%;
+		font-size: 26px;
+	}
+	.price {
+		font-size: 26px;
+	}
+	.dates {
+		font-size: 20px;
+		width: 150px;
+	}
+}
+@media screen and (max-width: 760px) {
+	.buttons {
+		padding: 0 6% 65px 6%;
+	}
+	.more {
+		width: 50%;
+	}
+	.name {
+		font-size: 48px;
+	}
+	.name img {
+		width:6%;
+	}
+	.date p {
+		font-size: 26px;
+	}
+	.input input {
+		padding: 10px 15px;
+		margin-bottom: 15px;
+		width: 300px;
+	}
+	.search {
+		width: 300px;
+		padding: 14px 19px;
+	}
+	
+}
+@media screen and (max-width: 650px) {
+	.price {
+		width: 30%;
+	}
+	.more {
+		width: 40%;
+	}
+	
+}
+@media screen and (max-width: 550px) {
+	.buttons {
+		display: block;
+	}
+	.more {
+		width: 50%;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.price {
+		margin: 0 auto;
+	}
+	.plan {
+		width: 100%;
+		top: 40px;
+	}
+	.length {
+		top: 510px;
+	}
+	.zagolovok1 {
+		font-size: 24px;
+	}
+	.plan p {
+		font-size: 20px;
+	}
+	.length p { 
+		font-size: 20px;
+	}
+	.zagolovok2 {
+		font-size: 18px;
+	}
+	.text {
+		font-size: 14px;
+	}
+	.more {
+		font-size: 20px;
+	}
+	.price {
+		font-size: 20px;
+	}
+	.dates {
+		font-size: 18px;
+		padding: 5px 10px;
+	}
+	.inliner img {
+		width: 10%;
+	}
+	.zagolovok1 img {
+	    width: 5%;
+	    margin: 0 10px;
+	}
+	.name {
+		font-size: 36px;
+	}
+	.name img {
+		width:5%;
+	}
+	.date p {
+		font-size: 22px;
+	}
+	.input input {
+		padding: 11px 16px;
+		margin-bottom: 15px;
+		width: 50%;
+		font-size: 22px;
+		border: 3px solid #177D85;
+	}
+	.search {
+		width: 50%;
+		padding: 14px 19px;
+	}
+
+}
+@media screen and (max-width: 400px) {
+	.plan p {
+		margin-bottom: 5px;
+	} 
+	.dates {
+		margin-top: 0;
+	}
+	.length p {
+		margin-bottom: 5px;
+	}
+	.dates {
+		font-size: 18px;
+	}
+	.inliner img {
+		width: 15%;
+	}
+	.zagolovok1 img {
+		width: 4%;
+		margin: 0 10px;
+	}
+	.more {
+		width: 70%;
+		padding: 10px;
+	}
+	.price {
+		width: 50%;
+		padding: 10px;
+	}
+	.date p {
+		font-size: 18px;
+	}
+	.input input {
+		padding: 10px 10px;
+		font-size: 18px;
+	}
+	.search {
+		padding: 13px 13px;
+	}
+
+}
