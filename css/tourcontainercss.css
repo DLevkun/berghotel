@@ -13,12 +13,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .first_screen {
-	background-image: url(../images/1st_screen_tour_container.png);
+	background-image: url(../img/1st_screen_tour_container.png);
 	height: 760px;
 	background-size: cover;
 }
 .name {
-	display: flex;
+	text-align: center;
 	font-size: 65px;
 	color: #FFFFFF;
 	position: relative;
@@ -33,6 +33,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .input {
 	display: flex;
+    justify-content: space-between;
 }
 .input input {
 	width: 400px;
@@ -43,6 +44,8 @@ h1, h2, h3, h4, h5, h6, p {
 .date {
 	position: relative;
 	top: 300px;
+	width: 50%;
+    margin: 0 auto;
 }
 .date p {
 	color: #FFFFFF;
@@ -70,17 +73,16 @@ h1, h2, h3, h4, h5, h6, p {
 	padding-bottom: 50px;
 
 }
-.centr {
-	text-align: center;
-	margin: 0 auto;
-}
 .zagolovok1 {
-	display: inherit;
 	font-size: 64px;
 	font-weight: bold;
 	align-items: center;
-	display: flex;
+	text-align: center;
 	padding: 40px 0;
+}
+.zagolovok1 img {
+      position: relative;
+      top: 3px;
 }
 .inliner {
 	display: flex;
@@ -93,17 +95,17 @@ h1, h2, h3, h4, h5, h6, p {
 	display: flex;
 }
 .back1 {
-	background-image: url(../images/tour1.png);
+	background-image: url(../img/tour1.png);
 	background-size: cover;
 	height: 630px;
 }
 .back2 {
-	background-image: url(../images/tour2.png);
+	background-image: url(../img/tour2.png);
 	background-size: cover;
 	height: 630px;
 }
 .back3 {
-	background-image: url(../images/tour3.png);
+	background-image: url(../img/tour3.png);
 	background-size: cover;
 	height: 630px;
 }
@@ -222,10 +224,12 @@ h1, h2, h3, h4, h5, h6, p {
 	.input input {
 		padding: 16px 21px;
 		margin-bottom: 30px;
+		width: -webkit-fill-available;
 	}
 	.search {
 		width: 400px;
 		margin-left: 0;
+		width: -webkit-fill-available;
 	}
 }
 @media screen and (max-width: 950px) {
@@ -358,13 +362,14 @@ h1, h2, h3, h4, h5, h6, p {
 	.input input {
 		padding: 11px 16px;
 		margin-bottom: 15px;
-		width: 50%;
 		font-size: 22px;
 		border: 3px solid #177D85;
+		width: -webkit-fill-available;
 	}
 	.search {
 		width: 50%;
-		padding: 14px 19px;
+		padding: 14px 19px;    
+		width: -webkit-fill-available;
 	}
 
 }
@@ -386,7 +391,7 @@ h1, h2, h3, h4, h5, h6, p {
 	}
 	.zagolovok1 img {
 		width: 4%;
-		margin: 0 10px;
+		margin: 0 5px;
 	}
 	.more {
 		width: 70%;
