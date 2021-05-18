@@ -1,0 +1,1139 @@
+@media screen and (max-width: 1436px) {
+  .main-feature .feature p {
+    font-size: 1.65vw;
+  }
+  .awards h1 {
+    font-size: 55px;
+  }
+  .special .special-btn .proposal-btn {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 1340px) {
+  .main-feature .feature h3 {
+    font-size: 35px;
+  }
+  .main-feature .feature p {
+    font-size: 1.6vw;
+  }
+  .proposal-main .proposals .proposal .rooms-text h3 {
+    font-size: 2.4vw;
+  }
+  .proposal-main .proposals .proposal .rooms-text p {
+    font-size: 1.7vw;
+  }
+  .proposal-main .proposals .proposal .rooms-text a {
+    font-size: 1.7vw;
+  }
+  .awards h1 {
+    width: 65%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .awards h1 img {
+    width: 60px;
+    position: absolute;
+  }
+  .awards h1 #left {
+    top: 43px;
+    left: -67px;
+  }
+  .awards h1 #right {
+    top: 42px;
+    right: -71px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .special {
+    padding: 80px;
+  }
+  .special .special-btn {
+    row-gap: 23px;
+    column-gap: 23px;
+  }
+  .special .special-btn .proposal-btn {
+    font-size: 25px;
+  }
+  .why-berghotel .reasons .reason .reason-number {
+    width: 390px;
+    height: 390px;
+  }
+  .why-berghotel .reasons .reason .reason-text h2 {
+    font-size: 45px;
+  }
+  .why-berghotel .reasons .reason .reason-text p {
+    font-size: 25px;
+  }
+  .awards .awards-list .award p {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .intro .header-text h2 {
+    font-size: 40px;
+  }
+  .intro .header-text h3 {
+    font-size: 35px;
+  }
+  .proposal-main .proposals .proposal #tours-text h3,
+  .proposal-main .proposals .proposal #celeb-text h3 {
+    margin: 40px 0;
+  }
+  .proposal-main .proposals .proposal #tours-text p,
+  .proposal-main .proposals .proposal #celeb-text p {
+    margin-bottom: 50px;
+  }
+  .proposal-main .proposals .proposal #celeb-text {
+    padding: 0 35px;
+  }
+}
+@media screen and (max-width: 1205px) {
+  .intro .header-text {
+    margin-bottom: 70px;
+  }
+  .intro .header-text h2 {
+    font-size: 35px;
+  }
+  .intro .header-text h2 img {
+    width: 35px;
+  }
+  .intro .header-text h3 {
+    font-size: 30px;
+  }
+  .intro .intro-block p {
+    font-size: 1.4vw;
+  }
+  .intro .intro-block .intro-row {
+    height: 509px;
+  }
+  .intro .intro-block .intro-row .eco-standard {
+    top: 120px;
+  }
+  .main-feature .feature h3 {
+    font-size: 30px;
+  }
+  .why-berghotel .why-header .question {
+    width: 130px;
+  }
+  .why-berghotel .why-header h1 {
+    font-size: 55px;
+  }
+  .proposal-main .proposal-header h1 {
+    font-size: 55px;
+  }
+  .proposal-main .proposals .proposal .proposal-image img {
+    width: 100%;
+    height: 100%;
+  }
+  .proposal-main .proposals .proposal #rooms {
+    width: 130%;
+  }
+  .proposal-main .proposals .proposal #tours-left {
+    width: 185%;
+  }
+  .proposal-main .proposals .proposal #tours-right {
+    width: 85%;
+  }
+  .proposal-main .proposals .proposal #celeb-left {
+    width: 80%;
+  }
+  .proposal-main .proposals .proposal #celeb-right {
+    width: 140%;
+  }
+  .proposal-main .proposals .proposal .rooms-text {
+    height: 100%;
+    margin-top: 6.5%;
+    margin-bottom: 6.5%;
+  }
+  .proposal-main .proposals .proposal .rooms-text a {
+    margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .special .special-btn .proposal-btn {
+    padding: 10px 35px;
+    font-size: 22px;
+  }
+  .proposal-main .proposals .proposal .rooms-text p {
+    margin-bottom: 55px;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .main-feature .feature h3 {
+    font-size: 26px;
+  }
+  .main-feature .feature p {
+    font-size: 1.5vw;
+  }
+  .intro {
+    padding: 70px 70px 70px 0;
+  }
+  .why-berghotel {
+    padding: 85px;
+  }
+  .why-berghotel .reasons .reason .reason-number {
+    width: 350px;
+    height: 350px;
+  }
+  .why-berghotel .reasons .reason .reason-number h1 {
+    font-size: 160px;
+  }
+  .why-berghotel .reasons .reason .reason-text h2 {
+    font-size: 40px;
+  }
+  .why-berghotel .reasons .reason .reason-text p {
+    font-size: 20px;
+  }
+  .special .special-btn .proposal-btn {
+    font-size: 21px;
+  }
+  .awards h1 {
+    font-size: 50px;
+  }
+  .book-section h1 {
+    font-size: 63px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .main-section {
+    height: 600px;
+  }
+  .main-section .main-text {
+    font-size: 20px;
+  }
+  .special h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main-section {
+    height: 550px;
+  }
+  .intro {
+    padding: 50px;
+    padding-left: 0;
+  }
+  .intro .header-text {
+    margin-bottom: 55px;
+  }
+  .intro .header-text h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+  .intro .header-text h2 img {
+    width: 32px;
+  }
+  .intro .header-text h2 #left {
+    left: 4px;
+  }
+  .intro .header-text h2 #right {
+    right: 5px;
+  }
+  .intro .header-text h3 {
+    font-size: 27px;
+  }
+  .intro .intro-block .intro-row {
+    height: 415px;
+  }
+  .intro .intro-block .intro-row .eco-standard {
+    width: 65%;
+    left: 3px;
+    top: 100px;
+  }
+  .main-feature .feature {
+    padding: 35px;
+  }
+  .main-feature .feature h3 {
+    font-size: 22px;
+  }
+  .main-feature .feature p {
+    font-size: 1.5vw;
+  }
+  .proposal-main .proposal-header h1 {
+    font-size: 45px;
+  }
+  .proposal-main .proposal-header h1 img {
+    top: 5px;
+  }
+  .proposal-main .proposals .proposal .rooms-text {
+    padding: 0 45px;
+  }
+  .why-berghotel {
+    padding: 75px;
+  }
+  .why-berghotel .why-header {
+    margin-bottom: 60px;
+  }
+  .why-berghotel .why-header .question {
+    width: 110px;
+  }
+  .why-berghotel .why-header h1 {
+    font-size: 45px;
+  }
+  .why-berghotel .why-header h1 img {
+    top: 5px;
+  }
+  .why-berghotel .reasons .reason .reason-number {
+    width: 290px;
+    height: 290px;
+  }
+  .why-berghotel .reasons .reason .reason-number h1 {
+    font-size: 115px;
+  }
+  .why-berghotel .reasons .reason .reason-text {
+    padding-top: 40px;
+  }
+  .why-berghotel .reasons .reason .reason-text h2 {
+    font-size: 35px;
+  }
+  .why-berghotel .reasons .reason .reason-text p {
+    font-size: 17px;
+    padding-top: 20px;
+  }
+  .special {
+    padding: 60px;
+  }
+  .special h1 {
+    font-size: 45px;
+  }
+  .special .special-btn {
+    row-gap: 18px;
+    column-gap: 18px;
+  }
+  .special .special-btn .proposal-btn {
+    font-size: 18px;
+    padding: 10px 25px;
+  }
+  .staff {
+    height: 620px;
+  }
+  .staff h3 {
+    font-size: 32px;
+  }
+  .staff h3 img {
+    width: 25px;
+    top: 3px;
+  }
+  .staff p {
+    font-size: 25px;
+  }
+  .staff p img {
+    width: 25px;
+    top: 5px;
+  }
+  .awards h1 {
+    font-size: 40px;
+  }
+  .awards h1 img {
+    width: 40px;
+  }
+  .awards h1 #left {
+    top: 30px;
+  }
+  .awards h1 #right {
+    top: 30px;
+  }
+  .awards .stars {
+    width: 75%;
+  }
+  .awards .awards-list .award p {
+    font-size: 30px;
+  }
+  .book-section {
+    padding: 70px;
+  }
+  .book-section h1 {
+    font-size: 58px;
+  }
+  .book-section a {
+    width: 85%;
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 875px) {
+  .book-section h1 {
+    font-size: 53px;
+  }
+  .book-section a {
+    font-size: 35px;
+  }
+  .intro .header-text h2 {
+    font-size: 24px;
+  }
+  .intro .header-text h2 img {
+    width: 28px;
+  }
+  .intro .header-text h3 {
+    font-size: 20px;
+  }
+  .intro .intro-block .intro-row {
+    height: 360px;
+  }
+}
+@media screen and (max-width: 830px) {
+  .main-feature .feature h3 {
+    font-size: 18px;
+  }
+  .main-feature .feature p {
+    margin-top: 18px;
+  }
+  .intro .intro-block .hotel-img {
+    margin-right: 30px;
+  }
+  .why-berghotel .why-header .question {
+    width: 100px;
+  }
+  .why-berghotel .why-header h1 {
+    font-size: 38px;
+  }
+  .proposal-main .proposal-header h1 {
+    font-size: 38px;
+  }
+  .book-section {
+    padding: 50px;
+    height: 600px;
+  }
+  .book-section a {
+    font-size: 32px;
+    height: 100px;
+  }
+  .book-section a img {
+    width: 48px;
+  }
+  .special h1 {
+    font-size: 40px;
+  }
+  .special .special-btn .proposal-btn {
+    font-size: 16px;
+  }
+  .awards {
+    padding: 60px;
+  }
+  .awards .awards-list .award p {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-feature .feature {
+    padding: 30px;
+  }
+  .main-feature .feature h3 {
+    font-size: 16px;
+  }
+  .main-feature .feature p {
+    font-size: 1.47vw;
+  }
+  .intro .header-text {
+    margin-bottom: 40px;
+  }
+  .intro .header-text h2 {
+    font-size: 22px;
+  }
+  .intro .header-text h3 {
+    font-size: 18px;
+    width: 70%;
+    margin-left: auto;
+  }
+  .intro .intro-block .intro-row {
+    height: 285px;
+  }
+  .intro .intro-block .intro-row .eco-standard {
+    top: 69px;
+  }
+  .proposal-main .proposal-header h1 {
+    font-size: 32px;
+  }
+  .proposal-main .proposal-header h1 img {
+    width: 30px;
+  }
+  .proposal-main .proposals .proposal .rooms-text {
+    padding: 0 35px;
+  }
+  .proposal-main .proposals .proposal .rooms-text h3 {
+    margin: 35px 0;
+  }
+  .proposal-main .proposals .proposal .rooms-text p {
+    margin-bottom: 40px;
+    font-size: 1.9vw;
+  }
+  .proposal-main .proposals .proposal .rooms-text a {
+    padding: 15px 0;
+    font-size: 1.9vw;
+  }
+  .why-berghotel {
+    padding: 50px;
+  }
+  .why-berghotel .why-header {
+    margin-bottom: 50px;
+  }
+  .why-berghotel .why-header .question {
+    width: 90px;
+  }
+  .why-berghotel .why-header h1 {
+    font-size: 32px;
+  }
+  .why-berghotel .why-header h1 img {
+    width: 30px;
+  }
+  .why-berghotel .reasons .reason .reason-number {
+    width: 240px;
+    height: 240px;
+  }
+  .why-berghotel .reasons .reason .reason-number h1 {
+    font-size: 90px;
+  }
+  .why-berghotel .reasons .reason .reason-text h2 {
+    font-size: 28px;
+  }
+  .why-berghotel .reasons .reason .reason-text p {
+    font-size: 14px;
+  }
+  .main-section .main-text {
+    font-size: 16px;
+    width: 60%;
+    margin: 0 auto 38px;
+  }
+  .special {
+    padding: 38px;
+  }
+  .special h1 {
+    font-size: 36px;
+  }
+  .special h1 img {
+    width: 35px;
+    top: 6px;
+  }
+  .special .special-btn {
+    row-gap: 15px;
+  }
+  .special .special-btn .proposal-btn {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+  .staff {
+    height: 580px;
+    padding: 40px 60px;
+  }
+  .staff h3 {
+    font-size: 28px;
+  }
+  .staff h3 img {
+    width: 23px;
+  }
+  .staff p {
+    font-size: 22px;
+  }
+  .staff p img {
+    width: 23px;
+  }
+  .awards h1 {
+    font-size: 35px;
+  }
+  .book-section h1 {
+    font-size: 43px;
+  }
+  .book-section h1 img {
+    width: 40px;
+    top: 6px;
+  }
+  .book-section h1 #left {
+    left: 8px;
+  }
+  .book-section h1 #right {
+    right: 5px;
+  }
+  .book-section a {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 677px) {
+  .intro .header-text h3 span {
+    padding-left: 100px;
+  }
+  .intro .intro-block .intro-row {
+    height: 250px;
+  }
+  .intro .intro-block .intro-row .eco-standard {
+    top: 50px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .main-feature {
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 50% 1fr;
+  }
+  .main-feature .img-contain {
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-feature .img-contain img {
+    display: none;
+  }
+  .main-feature #first-img {
+    background-image: url(../img/feature2-adapt.png);
+  }
+  .main-feature #second-img {
+    background-image: url(../img/feature1-adapt.png);
+  }
+  .main-feature .feature h3 {
+    font-size: 22px;
+  }
+  .main-feature .feature p {
+    font-size: 2.3vw;
+  }
+  .intro {
+    padding: 30px;
+  }
+  .intro .header-text h2 {
+    font-size: 20px;
+    padding: 0;
+    padding-left: 20px;
+  }
+  .intro .header-text h2 img {
+    width: 20px;
+    top: 3px;
+  }
+  .intro .header-text h3 {
+    font-size: 16px;
+  }
+  .intro .intro-block #grid {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+  .intro .intro-block #grid #first-par {
+    grid-row: 1/2;
+    grid-column: 1/3;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto 20px;
+    font-size: 2vw;
+  }
+  .intro .intro-block #grid .hotel-img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 100%;
+    float: none;
+  }
+  .intro .intro-block #grid #second-par {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .intro .intro-block #grid #second-par p {
+    font-size: 1.8vw;
+    margin-left: 14%;
+  }
+  .intro .intro-block .intro-row {
+    height: 275px;
+  }
+  .intro .intro-block .intro-row .eco-standard {
+    left: -35px;
+    width: 76%;
+  }
+  .intro .intro-block .intro-row .mountain {
+    top: -75px;
+    width: 43%;
+    right: 0%;
+  }
+  .proposal-main .proposals .proposal .rooms-text {
+    margin: 6% 0;
+  }
+  .proposal-main .proposals .proposal .rooms-text h3 {
+    margin: 30px 0;
+  }
+  .proposal-main .proposals .proposal .rooms-text p {
+    font-size: 2vw;
+    margin-bottom: 30px;
+  }
+  .proposal-main .proposals .proposal .rooms-text a {
+    font-size: 2vw;
+    padding: 12px 0;
+  }
+  .why-berghotel .reasons .reason {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .why-berghotel .reasons .reason .reason-number {
+    width: 100%;
+  }
+  .why-berghotel .reasons .reason .reason-text {
+    text-align: center;
+    padding-top: 15px;
+    width: 100%;
+  }
+  .why-berghotel .reasons .reason .reason-text p {
+    font-size: 18px;
+  }
+  .book-section {
+    height: 550px;
+  }
+  .book-section h1 {
+    font-size: 36px;
+  }
+  .book-section #left {
+    left: 1px;
+  }
+  .book-section #right {
+    right: 0px;
+  }
+  .book-section a {
+    height: 80px;
+    padding: 0 30px;
+    font-size: 25px;
+  }
+  .special {
+    padding: 30px;
+  }
+  .special h1 {
+    font-size: 30px;
+  }
+  .special h1 img {
+    width: 30px;
+    top: 5px;
+  }
+  .special .special-btn {
+    row-gap: 10px;
+    column-gap: 10px;
+  }
+  .special .special-btn .proposal-btn {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+  .staff {
+    height: 440px;
+  }
+  .staff h3 {
+    font-size: 24px;
+  }
+  .staff p {
+    font-size: 20px;
+    top: 210px;
+  }
+  .awards h1 {
+    font-size: 28px;
+  }
+  .awards h1 img {
+    width: 30px;
+  }
+  .awards h1 #left {
+    left: -43px;
+    top: 17px;
+  }
+  .awards h1 #right {
+    right: -49px;
+    top: 17px;
+  }
+  .awards .awards-list .award p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 586px) {
+  .awards h1 {
+    font-size: 25px;
+  }
+  .book-section {
+    height: 480px;
+  }
+  .book-section h1 {
+    font-size: 33px;
+  }
+  .book-section h1 img {
+    width: 30px;
+  }
+  .book-section a {
+    top: 200px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main-section .logo {
+    padding-top: 150px;
+  }
+  .intro .header-text {
+    margin-bottom: 30px;
+  }
+  .intro .header-text h2 {
+    font-size: 18px;
+  }
+  .intro .header-text h2 img {
+    width: 18px;
+  }
+  .intro .header-text h3 {
+    font-size: 14px;
+  }
+  .intro .header-text h3 span {
+    padding-left: 70px;
+  }
+  .intro .intro-block .intro-row {
+    height: 225px;
+  }
+  .intro .intro-block .intro-row .eco-standard {
+    width: 72%;
+    top: 40px;
+  }
+  .why-berghotel {
+    padding: 45px;
+  }
+  .why-berghotel .why-header h1 {
+    font-size: 26px;
+  }
+  .proposal-main .proposal-header h1 {
+    font-size: 26px;
+  }
+  .proposal-main .proposals .proposal {
+    margin-top: 35px;
+  }
+  .proposal-main .proposals .proposal .rooms-text {
+    padding: 0 25px;
+  }
+  .proposal-main .proposals .proposal .rooms-text h3 {
+    margin: 20px 0;
+    font-size: 3vw;
+  }
+  .proposal-main .proposals .proposal .rooms-text p {
+    margin-bottom: 25px;
+    font-size: 2.5vw;
+  }
+  .proposal-main .proposals .proposal .rooms-text a {
+    font-size: 2.5vw;
+    padding: 10px 0;
+    margin-bottom: 20px;
+  }
+  .special {
+    padding: 38px 0;
+  }
+  .special .special-btn {
+    grid-template-columns: 100%;
+    padding: 0 20px;
+    row-gap: 18px;
+  }
+  .special .special-btn .proposal-btn {
+    font-size: 20px;
+  }
+  .special .special-btn .proposal-btn img {
+    width: 10%;
+  }
+  .staff {
+    height: 420px;
+  }
+  .staff h3 {
+    font-size: 20px;
+  }
+  .staff h3 img {
+    width: 21px;
+  }
+  .staff p {
+    font-size: 18px;
+    top: 200px;
+  }
+  .staff p img {
+    width: 21px;
+  }
+  .awards .stars {
+    width: 85%;
+  }
+  .book-section h1 {
+    font-size: 28px;
+  }
+  .book-section a {
+    font-size: 20px;
+  }
+  .awards .awards-list .award {
+    grid-template-columns: 1fr;
+  }
+  .awards .awards-list .award div {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .awards .awards-list .award div img {
+    width: 80%;
+  }
+  .awards .awards-list .award p {
+    text-align: center;
+    padding: 30px 0 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main-section .main-text {
+    font-size: 12px;
+  }
+  .intro .header-text h2 {
+    font-size: 16px;
+  }
+  .intro .header-text h2 #left {
+    left: 2px;
+  }
+  .intro .header-text h2 #right {
+    right: 3px;
+  }
+  .intro .header-text h3 {
+    letter-spacing: 1px;
+  }
+  .intro .intro-block .intro-row {
+    height: 175px;
+  }
+  .intro .intro-block .intro-row .eco-standard {
+    width: 70%;
+    top: 27px;
+  }
+  .proposal-main .proposal-header h1 {
+    font-size: 22px;
+  }
+  .proposal-main .proposal-header h1 img {
+    width: 20px;
+    top: 2px;
+  }
+  .why-berghotel .why-header {
+    margin-bottom: 35px;
+  }
+  .why-berghotel .why-header .question {
+    width: 75px;
+  }
+  .why-berghotel .why-header h1 {
+    font-size: 22px;
+  }
+  .why-berghotel .why-header h1 img {
+    width: 20px;
+    top: 2px;
+  }
+  .why-berghotel .reasons .reason .reason-number {
+    height: 200px;
+  }
+  .why-berghotel .reasons .reason .reason-text h2 {
+    font-size: 25px;
+  }
+  .why-berghotel .reasons .reason .reason-text p {
+    font-size: 15px;
+  }
+  .main-feature .feature h3 {
+    font-size: 20px;
+  }
+  .main-feature .feature p {
+    letter-spacing: 0;
+  }
+  .special h1 {
+    font-size: 23px;
+  }
+  .special h1 img {
+    width: 27px;
+    top: 5px;
+  }
+  .special .collage {
+    padding: 22px 0;
+  }
+  .special .special-btn {
+    row-gap: 15px;
+  }
+  .special .special-btn .proposal-btn {
+    font-size: 18px;
+    padding: 10px 18px;
+  }
+  .staff {
+    height: 350px;
+    padding: 20px 25px;
+  }
+  .staff h3 {
+    font-size: 18px;
+  }
+  .staff h3 img {
+    width: 18px;
+  }
+  .staff p {
+    font-size: 16px;
+    top: 168px;
+  }
+  .staff p img {
+    width: 18px;
+  }
+  .awards {
+    padding: 45px;
+  }
+  .awards h1 {
+    width: 80%;
+    font-size: 22px;
+  }
+  .awards h1 #left {
+    top: 12px;
+  }
+  .awards h1 #right {
+    top: 12px;
+  }
+  .awards .awards-list .award p {
+    font-size: 18px;
+  }
+  .book-section {
+    height: 400px;
+    padding: 30px;
+  }
+  .book-section h1 {
+    font-size: 22px;
+  }
+  .book-section h1 #left {
+    left: 1px;
+  }
+  .book-section h1 #right {
+    right: 1px;
+  }
+  .book-section a {
+    font-size: 16px;
+    height: 60px;
+    padding: 0 20px;
+  }
+  .book-section a img {
+    width: 30px;
+  }
+}
+@media screen and (max-width: 471px) {
+  .intro .header-text h3 {
+    width: 89%;
+  }
+  .intro .intro-block .intro-row {
+    height: 165px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main-section .logo {
+    padding-top: 180px;
+  }
+  .intro {
+    padding: 25px;
+  }
+  .intro .header-text {
+    margin-bottom: 20px;
+  }
+  .intro .header-text h2 {
+    font-size: 14px;
+  }
+  .intro .header-text h2 img {
+    width: 14px;
+  }
+  .intro .header-text h3 {
+    font-size: 12px;
+    margin: 0;
+    width: 100%;
+    letter-spacing: 1px;
+  }
+  .intro .header-text h3 span {
+    padding-left: 85px;
+  }
+  .intro .intro-block #grid p {
+    letter-spacing: 0px;
+  }
+  .intro .intro-block .intro-row .eco-standard {
+    width: 78%;
+  }
+  .intro .intro-block .intro-row .mountain {
+    top: -40px;
+  }
+  .proposal-main .proposal-header h1 {
+    font-size: 18px;
+  }
+  .proposal-main .proposal-header h1 img {
+    width: 15px;
+  }
+  .proposal-main .proposals .proposal {
+    margin-top: 25px;
+  }
+  .proposal-main .proposals .proposal .proposal-image {
+    width: 150%;
+  }
+  .proposal-main .proposals .proposal .rooms-text {
+    padding: 0 15px;
+  }
+  .why-berghotel {
+    padding: 30px;
+  }
+  .why-berghotel .why-header .question {
+    width: 55px;
+  }
+  .why-berghotel .why-header h1 {
+    font-size: 18px;
+  }
+  .why-berghotel .why-header h1 img {
+    width: 15px;
+  }
+  .why-berghotel .reasons .reason .reason-number {
+    height: 150px;
+  }
+  .why-berghotel .reasons .reason .reason-number h1 {
+    font-size: 50px;
+  }
+  .why-berghotel .reasons .reason .reason-text h2 {
+    font-size: 20px;
+  }
+  .why-berghotel .reasons .reason .reason-text p {
+    font-size: 14px;
+  }
+  .main-feature .feature h3 {
+    font-size: 16px;
+  }
+  .main-feature .img-contain {
+    height: 150px;
+  }
+  .special h1 {
+    font-size: 20px;
+  }
+  .special h1 img {
+    width: 21px;
+    top: 4px;
+  }
+  .special .special-btn .proposal-btn {
+    font-size: 14px;
+  }
+  .staff {
+    height: 250px;
+  }
+  .staff h3 {
+    font-size: 16px;
+  }
+  .staff h3 img {
+    width: 16px;
+  }
+  .staff p {
+    font-size: 12px;
+    top: 95px;
+  }
+  .staff p img {
+    width: 16px;
+  }
+  .awards h1 {
+    width: 90%;
+    font-size: 20px;
+  }
+  .awards h1 img {
+    width: 25px;
+  }
+  .awards h1 #left {
+    left: -27px;
+  }
+  .awards h1 #right {
+    right: -27px;
+  }
+  .awards .awards-list .award p {
+    font-size: 16px;
+  }
+  .book-section h1 {
+    font-size: 18px;
+  }
+  .book-section h1 img {
+    width: 25px;
+  }
+  .book-section h1 #left {
+    left: 1px;
+  }
+  .book-section h1 #right {
+    right: 1px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .main-feature .feature h3 {
+    font-size: 14px;
+  }
+  .intro .header-text h3 span {
+    padding-left: 50px;
+  }
+  .intro .intro-block .intro-row {
+    height: 135px;
+  }
+}

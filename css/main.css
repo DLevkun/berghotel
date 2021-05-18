@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #284a63;
+}
+.main-section {
+  background-image: url(../img/Фон_лендінг.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.main-section div {
+  text-align: center;
+}
+.main-section .logo {
+  padding-top: 100px;
+  width: 100%;
+}
+.main-section .logo img {
+  width: 58%;
+}
+.main-section .main-text {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 38px;
+}
+.intro {
+  /*padding: 100px;*/
+  padding: 100px 100px 100px 0;
+}
+.intro .header-text {
+  color: white;
+  margin-bottom: 100px;
+}
+.intro .header-text h2 {
+  font-size: 45px;
+  font-weight: 700;
+  position: relative;
+  padding-left: 45px;
+  letter-spacing: 5px;
+}
+.intro .header-text h2 img {
+  position: relative;
+  top: 5px;
+}
+.intro .header-text h2 #left {
+  left: 10px;
+}
+.intro .header-text h2 #right {
+  right: 15px;
+}
+.intro .header-text h3 {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: right;
+  margin-top: 15px;
+  margin-right: 55px;
+}
+.intro .intro-block .hotel-img {
+  display: block;
+  /*position: relative;
+      left: -100px;*/
+  float: left;
+  width: 53%;
+  margin-right: 50px;
+}
+.intro .intro-block p {
+  font-size: 1.6vw;
+  font-weight: 300;
+  color: white;
+  letter-spacing: 1px;
+}
+.intro .intro-block .intro-row {
+  height: 640px;
+  clear: both;
+  position: relative;
+}
+.intro .intro-block .intro-row .eco-standard {
+  position: absolute;
+  z-index: 2;
+  top: 160px;
+  left: -100px;
+  width: 75%;
+}
+.intro .intro-block .intro-row .mountain {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  top: -120px;
+  width: 43%;
+}
+.main-feature {
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  grid-template-rows: minmax(300px, 100%);
+  width: 100%;
+}
+.main-feature .img-contain img {
+  width: 100%;
+}
+.main-feature .feature {
+  background-color: white;
+  padding: 45px;
+  box-sizing: border-box;
+  height: 100%;
+}
+.main-feature .feature h3 {
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #177d85;
+  text-align: center;
+}
+.main-feature .feature p {
+  color: #353535;
+  letter-spacing: 1px;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 33px;
+}
+.main-feature .feature p .green-bold {
+  font-weight: 700;
+  color: #177d85;
+}
+.why-berghotel {
+  padding: 100px;
+}
+.why-berghotel .why-header {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.why-berghotel .why-header h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: white;
+}
+.why-berghotel .why-header h1 img {
+  position: relative;
+}
+.why-berghotel .reasons .reason {
+  display: flex;
+  justify-content: space-between;
+}
+.why-berghotel .reasons .reason .reason-number {
+  height: 465px;
+  width: 465px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+.why-berghotel .reasons .reason .reason-number h1 {
+  text-align: center;
+  font-size: 170px;
+  font-weight: 800;
+  color: white;
+}
+.why-berghotel .reasons .reason #reason1 {
+  background-image: url(../img/reason1.png);
+}
+.why-berghotel .reasons .reason #reason2 {
+  background-image: url(../img/reason2.png);
+}
+.why-berghotel .reasons .reason #reason3 {
+  background-image: url(../img/reason3.png);
+}
+.why-berghotel .reasons .reason .reason-text {
+  width: 50%;
+  padding-top: 50px;
+}
+.why-berghotel .reasons .reason .reason-text h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+}
+.why-berghotel .reasons .reason .reason-text p {
+  padding-top: 40px;
+  letter-spacing: 1px;
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+}
+.proposal-main .proposal-header h1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+}
+.proposal-main .proposal-header h1 img {
+  position: relative;
+}
+.proposal-main .proposal {
+  display: flex;
+  margin-top: 50px;
+}
+.proposal-main .proposal .rooms-text {
+  height: 517px;
+  margin-top: 91px;
+  max-width: 624px;
+  padding: 0 60px;
+  background-color: white;
+}
+.proposal-main .proposal .rooms-text h3 {
+  margin: 43px 0;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+.proposal-main .proposal .rooms-text p {
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.proposal-main .proposal .rooms-text a {
+  font-size: 25px;
+  display: block;
+  text-align: center;
+  max-width: 363px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+  background-color: #177d85;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+.special {
+  padding: 100px;
+}
+.special h1 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: 700;
+  color: white;
+}
+.special h1 img {
+  position: relative;
+  top: 3px;
+}
+.special .collage {
+  padding-top: 30px;
+  max-width: 1240px;
+  display: flex;
+  padding-bottom: 30px;
+}
+.special .collage img {
+  width: 33.3%;
+}
+.special .special-btn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 30px;
+  column-gap: 30px;
+}
+.special .special-btn .proposal-btn {
+  position: relative;
+  padding: 15px 40px;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  max-width: 609px;
+  background-color: white;
+  color: #177d85;
+  font-size: 32px;
+  font-weight: 700;
+  display: flex;
+}
+.special .special-btn .proposal-btn img {
+  width: 11%;
+}
+.staff {
+  background-image: url(../img/staff_back.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  height: 655px;
+  padding: 50px 100px;
+}
+.staff h3 {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 1px;
+  text-align-last: left;
+}
+.staff h3 img {
+  position: relative;
+  top: 5px;
+}
+.staff p {
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+  /*max-width: 550px;*/
+  text-align: right;
+  margin-left: auto;
+  position: relative;
+  top: 312px;
+}
+.staff p img {
+  position: relative;
+  top: 5px;
+}
+.awards {
+  padding: 50px 100px 100px;
+}
+.awards .stars {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto 20px;
+}
+.awards .stars img {
+  width: 100%;
+}
+.awards h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+.awards h1 img {
+  position: relative;
+}
+.awards .awards-list .award {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-top: 60px;
+}
+.awards .awards-list .award div {
+  text-align: center;
+}
+.awards .awards-list .award div img {
+  width: 90%;
+}
+.awards .awards-list .award p {
+  font-size: 45px;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+.book-section {
+  background-image: url(../img/book_back.png);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  height: 685px;
+  padding: 100px;
+}
+.book-section h1 {
+  font-size: 70px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+.book-section h1 img {
+  width: 50px;
+  position: relative;
+  top: 2px;
+}
+.book-section h1 #left {
+  left: 9px;
+}
+.book-section h1 #right {
+  right: 9px;
+}
+.book-section a {
+  text-decoration: none;
+  color: #177d85;
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-size: 45px;
+  font-weight: 700;
+  background-color: white;
+  max-width: 720px;
+  height: 129px;
+  padding: 0px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 265px;
+}
