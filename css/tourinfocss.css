@@ -13,12 +13,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .first_screen {
-	background-image: url(../images/1st_screen_tour_info.png);
+	background-image: url(../img/1st_screen_tour_info.png);
 	height: 760px;
 	background-size: cover;
 }
 .name {
-	display: flex;
+	text-align: center;
 	font-size: 50px;
 	font-weight: bold;
 	color: #FFFFFF;
@@ -29,15 +29,19 @@ h1, h2, h3, h4, h5, h6, p {
 	margin: 0 15px;
 }
 .input_1st_screen {
-	display: flex;
-	position: relative;
-	top: 400px;
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    justify-content: space-around;
+    position: relative;
+    top: 400px;
 }
 .input_1st_screen div {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	font-size: 30px;
-	width: 25%;
+	width: 40%;
 	padding: 20px 25px;
 }
 .detail {
@@ -64,14 +68,17 @@ h1, h2, h3, h4, h5, h6, p {
 	font-weight: bold;
 	color: #FFFFFF;
 	padding-bottom: 40px;
-	display: flex;
-	margin-left: 10%;
 	align-items: center; 
+	text-align: center;
 }
-.zagolovok1 p {
-	margin: 0 10px;
+.zagolovok1 img {
+      position: relative;
+      top: 3px;
 }
-
+#special {
+	margin-left: 10%;
+	text-align: left;
+}
 .text {
 	display: block;
 	color: #FFFFFF;
@@ -110,15 +117,24 @@ h1, h2, h3, h4, h5, h6, p {
 	margin-left: auto;
 }
 .arrow {
-	/*position: absolute;*/
-	left: 10%;
-
+	width: 100%; 
 }
 .inline-top {
 	display: flex;
+	color: #FFFFFF;
+	font-size: 30px;
+	width: 45%;
+	justify-content: space-between;
+	margin-left: 7%;
 }
 .inline-bottom {
 	display: flex;
+	color: #FFFFFF;
+	font-size: 30px;
+	width: 50%;
+	justify-content: space-between;
+	margin-left: 26%;
+	margin-bottom: 100px;
 }
 .rect1 {
 	width: 34%;
@@ -148,14 +164,18 @@ h1, h2, h3, h4, h5, h6, p {
 	margin: 75px 0;
 }
 .calendar {
-	width: 20%;
+	width: 15%;
 }
 .verticalstep {
-	margin-top: 100px;
+	margin-top: 40px;
 }
 .dollar {
 	margin-right: 30px;
 }
+#top {
+	position: relative;
+	top: 25px;
+	}
 .blue_line {
 	color: #FFFFFF;
 	font-size: 40px;
@@ -216,7 +236,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .row select {
 	appearance: none;
-	background: url(../images/Arrow_down.png) no-repeat right #FFFFFF;
+	background: url(../img/Arrow_down.png) no-repeat right #FFFFFF;
 	background-position-x: calc(100% - 25px);
 }
 input[type="checkbox"] {
@@ -320,6 +340,12 @@ input:checked[type="checkbox"]:before {
 	}
 }
 @media screen and (max-width: 1200px) {
+	.inline-top {
+		font-size: 24px;
+	}
+	.inline-bottom {
+		font-size: 24px;
+	}
 	.stars {
 		width: 60%;
 		height: 60%
@@ -332,7 +358,7 @@ input:checked[type="checkbox"]:before {
 	}
 	.input_1st_screen div {
 	    font-size: 24px;
-	    width: 30%;
+	    width: 45%;
 	    padding: 20px 20px;
 	}
 	.zagolovok1 {
@@ -368,9 +394,25 @@ input:checked[type="checkbox"]:before {
 	.text {
 		margin-top: 0;
 	}
+	#top {
+		top: 10px;
+	}
 
 }
 @media screen and (max-width: 920px) {
+	#top {
+		top: 5px;
+	}
+	.inline-top {
+		font-size: 21px;
+		width: 47%;
+		margin-left: 6%;
+	}
+	.inline-bottom {
+		font-size: 21px;
+		width: 	55%;
+		margin-left: 24%;
+	}
 	.mark {
 		display: none;
 	}
@@ -389,7 +431,7 @@ input:checked[type="checkbox"]:before {
 		padding-bottom: 30px;
 	}
 	.characteristics {
-		margin-top: 70px;
+		margin-top: 50px;
 	}
 	.rect_zag {
 		font-size: 26px;
@@ -491,10 +533,21 @@ input:checked[type="checkbox"]:before {
 	.name {
 		font-size: 36px;
 	}
+	.input_1st_screen {
+		width: 85%;
+	}
 	.input_1st_screen div {
 	    font-size: 20px;
-	    width: 30%;
-	    padding: 20px 20px;
+	    width: 50%;
+	    padding: 15px 20px;
+	}
+	.inline-top {
+		font-size: 20px;
+		margin-top: 40px;
+	}
+	.inline-bottom {
+		font-size: 20px;
+		margin-bottom: 	50px;
 	}
 }
 @media screen and (max-width: 620px) {
@@ -505,6 +558,10 @@ input:checked[type="checkbox"]:before {
 	.input_1st_screen div {
 	    font-size: 18px;
 	    width: 60%;
+	    padding: 15px 10px;
+	}
+	.input_1st_screen img {
+	    width: 5%;
 	}
 	.zagolovok1 {
 		font-size: 26px;
@@ -579,8 +636,31 @@ input:checked[type="checkbox"]:before {
 		font-size: 20px;
 		padding: 20px 30px;
 	}
+	.inline-top {
+		font-size: 16px;
+		width: 47%;
+		margin-left: 6%;
+	}
+	.inline-bottom {
+		font-size: 16px;
+		width: 	55%;
+		margin-left: 24%;
+	}
+	#top {
+		top: 3px;
+	}
 }
 @media screen and (max-width: 470px) {
+	#top {
+		top: 4px;
+	}
+	.inline-top {
+		font-size: 10px;
+	}
+	.inline-bottom {
+		font-size: 10px;
+		margin-bottom: 50px;
+	}
 	.name {
 		font-size: 24px;
 	}
@@ -717,3 +797,5 @@ input:checked[type="checkbox"]:before {
 		padding-top: 40px;
 	}
 }
+
+

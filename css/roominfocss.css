@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .first_screen {
-	background-image: url(../images/1st_screen_room_info.png);
+	background-image: url(../img/1st_screen_room_info.png);
 	height: 760px;
 	background-size: cover;
 }
@@ -43,12 +43,15 @@ h1, h2, h3, h4, h5, h6, p {
 
 .input_1st_screen {
 	display: flex;
+	width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 .input_1st_screen div {
 	display: flex;
 	justify-content: space-between;
 	font-size: 30px;
-	width: 25%;
+	width: 45%;
 	padding: 20px 25px;
 }
 .detail {
@@ -72,10 +75,11 @@ h1, h2, h3, h4, h5, h6, p {
 	font-weight: bold;
 	color: #FFFFFF;
 	padding-bottom: 40px;
-	display: flex;
+	text-align: center;
 }
-.zagolovok1 p {
-	margin: 0 10px;
+.zagolovok1 img {
+      position: relative;
+      top: 3px;
 }
 .transform {
 	transform: scale(-1, 1);
@@ -408,6 +412,11 @@ input:checked[type="checkbox"]:before {
 		width: 50%;
 		margin-left: 25%;
 	}
+	.input_1st_screen {
+		width: 75%;
+	    margin: 0 auto;
+	    justify-content: space-between;
+	}
 }
 @media screen and (max-width: 1175px) {
 	.zagolovok1 {
@@ -594,12 +603,17 @@ input:checked[type="checkbox"]:before {
 	}
 	.input_1st_screen div {
 	    font-size: 20px;
+		width: 50%;
+		padding: 15px 15px;
 	}
 	.input_1st_screen img {
 	    max-width: 8%;
 	}
 	.zagolovok1 {
 		font-size: 28px;
+	}
+	.input_1st_screen {
+		width: 85%;
 	}
 }
 @media screen and (max-width: 640px) {
@@ -702,6 +716,12 @@ input:checked[type="checkbox"]:before {
 	.button {
 		font-size: 22px;
 	}
+	.input_1st_screen {
+		width: 90%;
+	}
+	.zagolovok1 img {
+      top: 0px;
+}
 }
 @media screen and (max-width: 506px) {
 	.back {
@@ -795,10 +815,11 @@ input:checked[type="checkbox"]:before {
 	}
 	.input_1st_screen {
 		display: block;
-		padding-left: 20%;
+		padding-left: 15%;
+		width: 70%;
 	}
 	.input_1st_screen div{
-		width: 60%;
+		width: 70%;
 	}
 	.book {
 		margin-left: 0;
@@ -814,8 +835,6 @@ input:checked[type="checkbox"]:before {
 	.first_text {
 		width: 60%;
 	}
-}
-@media screen and (max-width: 506px) {
 	.button {
 		font-size: 16px;
 	}
